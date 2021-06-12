@@ -77,7 +77,8 @@ function generatePassword() {
   else if (PromptSpecial) {
     PasswordArray = Special;
   }
-  
+
+  // Password Generation
   var PasswordGen = [];
   for (i = 0; i < PromptLength; i++) {
     var PasswordSelect = PasswordArray[Math.floor(Math.random() * PasswordArray.length)];
